@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(223, 223, 220);
+    font-family: MyFontName, "vazir", "Segoe UI", Tahoma, sans-serif;
+}
+.login {
+    margin: 2rem 0;
+}
+.h2titleform {
+    text-align: center;
+    margin: 1rem 0;
+}
+.btnsubmit {
+    margin-top: 1rem;
+}
+.btnback {
+    margin-top: 1rem;
+    float: left;
+}
+

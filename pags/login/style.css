@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(223, 223, 220);
+}
+.login {    
+
+    margin: 6rem 0;
+}
+.h2titleform{
+    text-align: center;
+    margin: 1rem 0;
+}
+.btnsubmit{
+    margin: 3rem 0;
+}
+.btnback{
+    margin-top:1rem ;
+    float: left;
+}

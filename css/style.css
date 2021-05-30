@@ -1,0 +1,353 @@
+/* Navbar */
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+    color: #1ebba3 !important;
+}
+#header {
+    margin-top: 2rem;
+}
+#header .jumbotron {
+    background-image: url("../images/1.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    border-radius: 0px im !important;
+}
+#header .jumbotron h1 {
+    margin: 30px;
+    font-size: 50px;
+    line-height: 1.5;
+    text-shadow: rgb(124, 123, 119) 1px 0 10px;
+}
+#header .jumbotron p {
+    margin: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-shadow: rgb(217, 227, 228) 1px 0 10px;
+}
+#header .intro {
+    padding-top: 130px;
+}
+
+/* End Header  */
+
+/* About */
+#about {
+    background-color: #e4e4e3e3;
+}
+.area {
+    margin: 0 auto;
+    padding: 4rem 2rem 1rem;
+}
+.area h2 {
+    font-size: 2.4rem;
+    font-family: "yekan";
+}
+.area p {
+    font-family: "nazanin";
+    font-size: 18px;
+}
+
+.btn-secondary {
+    border-width: 0.1rem;
+    border-radius: 0;
+    font-size: 1.2rem;
+    padding: 0.6rem 1.2rem;
+    margin: 1rem;
+    color: #ffffff;
+    background-color: #1ebba3;
+    border-color: #1ebba3;
+}
+
+.btn-secondary:hover {
+    background-color: #169c88;
+    border-color: #169c99;
+}
+/* End About */
+/* Slider */
+.slide {
+    padding: 2rem 0;
+}
+/* End Slider */
+/* News */
+.news {
+    background-color: #fcfafa85;
+    margin: 3rem 0;
+}
+.h3matn {
+    color: rgb(55, 52, 53);
+}
+.pmatn {
+    color: rgb(17, 17, 17);
+}
+.newrow {
+    margin: 1rem 0;
+}
+
+/* pic */
+.imgmatn {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+}
+/* End News */
+/* Servieces */
+.jumbotron {
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+    width: 100%;
+}
+
+h2.title {
+    font-family: "yekan";
+    font-size: 2rem;
+    font-weight: 800;
+}
+.underline {
+    width: 20rem;
+    height: 0.2rem;
+    background-color: #1ebba3;
+    margin: 1rem auto 2rem;
+}
+#rowservices {
+    margin: auto;
+}
+
+.service i {
+    color: #1ebba3;
+}
+.service h3 {
+    font-family: "yekan";
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom: 0.4rem;
+}
+.service p {
+    font-family: "nazanin";
+    font-size: 1.1rem;
+}
+/* End Servieces */
+/* Product Group */
+.group-backgroun {
+    position: relative;
+}
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1 !important;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    background-position: cover cover;
+}
+
+.group-backgroun .dark {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 7rem 2rem;
+}
+
+/* End Product Group */
+
+.teacher-hr {
+    border-bottom: 0.1rem solid #1ebba3;
+}
+/* New News */
+.newNews {
+    margin: 2rem 0;
+}
+.badge {
+    float: left;
+}
+.nNews:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+/* End New News */
+/* Panel adding */
+.addNews {
+    margin: 2rem 0;
+}
+.addNewsHeader {
+    background-color: rgb(115, 211, 115);
+}
+/* End Panel adding */
+
+/* List Group */
+.list-group {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 7px 20px 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+}
+.img-list-group {
+    width: 100%;
+    border-radius: 50%;
+}
+/* End List Group */
+
+/* Authord */
+#authors .jumbotron {
+    padding: 1rem 0 3rem;
+}
+.authors .card {
+    border-radius: 0;
+    box-shadow: 2px 2px 5px #1ebba3;
+    margin: 1rem 0;
+}
+.authors .card:hover {
+    background-color: #169c88;
+}
+.authors .card:hover i,
+.authors .card:hover h3,
+.authors .card:hover h5,
+.authors .card:hover p {
+    color: #ffffff;
+}
+.card-body .img-fluid {
+    margin-top: -75px;
+}
+
+.card-body h3 {
+    font-family: "yekan";
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 800;
+}
+.card-body h5 {
+    font-family: "nazanin";
+    font-size: 1rem;
+    color: #000;
+    font-weight: bolder;
+}
+.card-body p {
+    font-family: "yekan";
+    font-size: 0.9rem;
+    text-align: justify;
+}
+.card-body i {
+    color: #000;
+    font-size: 1.8rem;
+}
+.card-body i:hover {
+    color: #000 !important ;
+    font-size: 1.8rem;
+}
+
+/* End Authord */
+
+/* Start Footer  */
+
+footer {
+    padding: 2rem 0;
+    background-color: #343a40;
+    color: #fff;
+}
+footer p {
+    font-size: "yekan";
+}
+footer i {
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 1.2rem 0.5rem 0 0;
+}
+footer i:hover {
+    color: #1ebba3;
+}
+.admin {
+    color: #343a40;
+}
+.admin:hover {
+    background-color: #fdfdfd;
+}
+.footer-hr {
+    width: 100%;
+    border-top: 0.2rem solid #666b71;
+    margin-top: 3rem;
+}
+.sitename-title {
+    color: #1ebba3;
+}
+
+/* End Footer  */
+@media only screen and (max-width: 1200px) {
+    .file {
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        line-height: 10px;
+        box-sizing: content-box;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .file {
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+        line-height: 10px;
+        box-sizing: content-box;
+    }
+    /* News image */
+    .imgmatn {
+      width: 100%;
+      height: auto;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 6px;
+  }
+    .imginput {
+        font-size: 12px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    #header .intro {
+        padding-top: 10%;
+    }
+
+    #underline {
+        width: 50%;
+    }
+    .footer-hr {
+        width: 70%;
+        border-top: 0.2rem solid #666b71;
+        margin-top: 3rem;
+    }
+    .authors .card {
+        margin: 3rem 0;
+    }
+    .file {
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        line-height: 10px;
+        box-sizing: content-box;
+    }
+    /* News image */
+    .imgmatn {
+      width: 100%;
+      height: auto;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 6px;
+  }
+}
